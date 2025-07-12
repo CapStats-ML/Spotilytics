@@ -1,0 +1,30 @@
+# Configuración del proyecto
+project:
+  name: "Spotilytics"
+  version: "1.0.0"
+  author: "CaspStats-ML"
+
+# Configuración de la API
+api:
+  base_url: "https://api.spotify.com/v1"
+  timeout: 90
+
+# Configuración de análisis
+analysis:
+  audio_features:
+    - acousticness
+    - danceability
+    - energy
+    - instrumentalness
+    - liveness
+    - loudness
+    - speechiness
+    - tempo
+    - valence
+  
+# Configuración de visualización
+visualization:
+  style: "seaborn-v0_8"
+  color_palette: "viridis"
+  figure_size: [12, 8]
+  dpi: 300
